@@ -1,0 +1,286 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ body{
+     font-family: Arial, sans-serif;
+     font-size: 15px;
+ }
+ ul{
+     list-style-type: none;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+ }
+ 
+ h1{
+     font-family: "Dancing Script",sans-serif;
+     font-size: 35px;
+     color:#444;
+ }
+ .orange{
+     color:#ffa500;
+     animation: mySlide;
+     animation-duration: 5s;
+     animation-delay: 2s;
+ 
+ }
+ @keyframes mySlide{
+     from{margin-left:100%;}
+     to{margin-right: 0%;}
+ }
+ h4{
+     font-size: 24px;
+     color: #444;
+ 
+ }
+ p{
+    line-height: 20px; 
+    color: #777;
+ 
+ }
+ small{
+     font-size: 16px;
+     font-style: italic;
+    
+     
+ }
+ h3{
+     text-transform: uppercase;
+     font-size: 30px;
+     color: #444;
+ }
+ /*header  nav bar  */
+ header{
+     height: 120px;
+     align-items: center;
+     background-color: #c9c9c9;
+     position: sticky;
+     top: 0;
+ 
+ }
+ header h1{
+     float: left;
+     margin-top: 32px;
+     text-shadow: px 1px 2px black;
+ }
+ header nav{
+     float: right;
+     margin-top: 50px;
+     
+ }
+ header nav ul li{
+    float: left;
+    display: flex; 
+    align-items: center;
+ 
+ }
+ header nav ul li a{
+     text-transform: uppercase;
+     font-weight: bold;
+     margin-right:20px ;
+     align-items: center;
+     transition: 0.5s;
+ 
+ }
+ header nav ul li a:hover{
+     color: blue;
+ }
+ /* main-image */
+ #main-image{
+     height: 580px;
+     background: url(asset/1.1\ Main.jpg) center;
+ }
+ #main-image h2{
+     font-weight: normal;
+     text-align: center;
+     text-transform: uppercase;
+     padding: 150px 0 40px 0;
+     margin-bottom: 20px;
+ }
+ .btn-1{
+     display: block;
+     width: 120px;
+     height: 50px;
+     background-color: orange;
+     font-size: 20px;
+     margin: 0 auto;
+     line-height: 50px;
+     text-align: center;border-radius: 5px;
+     animation: 0.5s;
+ }
+ .btn-1:hover{
+     background-color: rgba(59, 59, 201, 0.726);
+     color: white;
+     border: 1px solid black;
+ }
+ /* steps */
+ 
+ 
+ #steps ul{
+     margin: 80px 0;
+     
+ 
+ 
+ }
+ #steps ul li{
+     width: 300px;
+     float: left;
+     padding-top: 140px;
+     text-align: center;
+     margin-right:10px ;
+ 
+ }
+ #steps h4{
+     text-transform: uppercase;
+     margin-bottom: 20px;
+ 
+ }
+ #step-1{
+     background: url(asset/1.3\ Steps\ Icon\ 1.png) no-repeat top center;
+ }
+ #step-2{
+     background: url(asset/1.5\ Steps\ Icon\ 2.png) no-repeat top center;
+ 
+ }
+ #step-3{
+     background: url(asset/1.2\ Steps\ Icon\ 3.png) no-repeat top center;
+ 
+ }
+ #step p{
+     margin-bottom: 20px;
+ 
+ }
+ #steps li{
+     margin-left: 90px;
+ }
+ #possibilities{
+    clear: both;
+ }
+ /* Possipilities */
+ #possibilities{
+    background-color: #efefef;
+    padding: 60px 0;
+ }
+ #possibilities article{
+     width: 450px;
+     height: 250px ;
+     float: left;
+     border-radius: 10px;
+     align-items: center;
+ }
+ .clear{
+     clear: both;;
+ }
+ #possibilities article:nth-child(1){
+     margin-right: 300px;
+     margin-left: 20px;
+ }
+ #possibilities article:nth-child(2){
+     margin-left: 20px;
+ }
+      .overlay{
+        background: rgba(255, 255, 255, 0.95);
+        height: 100%;
+        width: 190px;
+        padding: 20px;
+        transition: 0.2s;
+ } 
+ article h4{
+     border-bottom: 1px solid black;
+     padding-bottom: 20px;
+     text-transform: uppercase;
+ }
+ #possibilities small{
+     text-align: center;
+ }
+ .btn-2{
+     background-color: orange;
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     transition: 0.6s;
+ }
+ .btn-2:hover{
+     background-color: rgb(74, 74, 219);
+ }
+ #contact{
+     padding: 60px 0;
+     text-align: center;
+ }
+ #contact h3{
+     
+     width: 450px;
+     border-bottom: 1px solid blue;
+     margin-bottom: 20px;
+     margin: 0 auto 20px auto;
+     padding-bottom: 20px;
+ 
+ }
+ form{
+     margin: 60px 0 20px  0;
+ }
+ label{
+     font-weight: bold;
+     font-size: 20px;
+     margin-right: 10px;
+     color: #777;
+ }
+ input[type = "text"]{
+     padding: 10px;
+     font-size: 20px;
+     margin-right: 20px;
+     border: 2px solid #ddd;
+ }
+ input[type="email"]{
+     padding: 10px;
+     font-size: 20px;
+     margin-right: 20px;
+     border: 2px solid #ddd;
+     border-radius: 5px;
+ }
+ .btn-3{
+     background-color: blue;
+     color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+ }
+ .btn-3:hover{
+     background-color: white;
+     color: blue;
+     border: 1px solid blue;
+     box-shadow: 3px 3px 2px black;
+ }
+.wraper .overlay:hover{
+   
+        background: #ffffff49;
+        height: 100%;
+        width: 250px;
+        padding: 20px;
+        box-shadow: 2px 3px 2px black;
+ 
+}
+/* footer */
+footer{
+    height: 260px;
+    background-color: #444;
+}
+footer h1{
+ color: white; 
+ text-align: center;  
+ padding-top: 60px;
+
+}
+#copyright{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color:#777 ;
+}
